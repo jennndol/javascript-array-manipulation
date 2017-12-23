@@ -1,0 +1,15 @@
+{
+  "name": "subword-combination",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "array-equal": "^1.0.0",
+    "mocha": "^4.0.1"
+  }
+}
