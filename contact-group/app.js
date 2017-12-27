@@ -5,7 +5,7 @@ var groups = [{ id: 1, name: 'Teman SMP' }, { id: 2, name: 'Teman SMA' }, { id: 
 
 function showContactByGroup(group_name) {
   let result = [];
-  let index = groups.findIndex(function(item, i){
+  let index = groups.findIndex(function(item){
     return item.name === group_name;
   });
   let group_id = groups[index].id;
